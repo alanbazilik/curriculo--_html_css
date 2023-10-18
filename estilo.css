@@ -1,6 +1,17 @@
 body {
-    background-color: black;
+    font-family: Arial, sans-serif; /* Define a fonte padrão para todo o documento */
 }
+
+h3 {
+    font-size: 24px; /* Tamanho da fonte para os títulos */
+}
+
+h5 {
+    font-size: 20px; /* Tamanho da fonte para o título "Compartilhar" */
+}
+
+/* Ajuste as fontes, tamanhos e cores de acordo com suas preferências */
+
 
 p {
     font-size: 35px;
@@ -14,6 +25,51 @@ a {
     font-size: 24px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
+}
+.container {
+    margin: 20px; /* Define uma margem para o container */
+    padding: 20px; /* Define um preenchimento interno para o container */
+    background-color: #f0f0f0; /* Define uma cor de fundo para o container */
+    border: 1px solid #ccc; /* Adiciona uma borda ao container */
+}
+
+.hr_dados1 {
+    margin: 10px 0; /* Adiciona espaço acima e abaixo da linha horizontal */
+}
+
+/* Estilos específicos para os elementos de dados, como nome, gênero e localização */
+h3.name {
+    color: #333; /* Cor do nome */
+}
+
+h3.gender {
+    font-style: italic; /* Nome do gênero em itálico */
+}
+
+h3.location {
+    font-weight: bold; /* Nome da localização em negrito */
+}
+i.fab.fa-whatsapp-square, i.fab.fa-linkedin {
+    font-size: 30px; /* Tamanho dos ícones */
+    margin-right: 10px; /* Margem à direita para separar os ícones do texto */
+}
+h3.bio {
+    font-size: 18px; /* Tamanho da fonte para o texto da biografia */
+    line-height: 1.5; /* Espaçamento entre linhas do texto */
+}
+
+/* Estilizando os parágrafos de habilidades */
+ul {
+    list-style-type: disc; /* Define marcadores para as listas não ordenadas */
+    margin-left: 20px; /* Adiciona uma margem à esquerda para recuo */
+}
+a {
+    color: #0077b5; /* Cor padrão para links */
+    text-decoration: none; /* Remove a sublinhado padrão dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado quando passa o mouse sobre os links */
 }
 /* Estilizando o título */
 h3 {
@@ -37,3 +93,4 @@ h3.email {
 h3.bio {
     line-height: 1.5; /* Espaçamento entre linhas do texto */
 }
+
