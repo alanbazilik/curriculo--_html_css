@@ -15,3 +15,25 @@ a {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
 }
+/* Estilizando o título */
+h3 {
+    color: #333; /* Cor do texto */
+    font-family: Arial, sans-serif; /* Fonte */
+}
+
+/* Estilizando o ícone do WhatsApp */
+i.fab.fa-whatsapp-square {
+    font-size: 24px; /* Tamanho do ícone */
+    margin-right: 10px; /* Margem à direita para separá-lo do texto */
+}
+
+/* Estilizando o email */
+h3.email {
+    font-size: 16px; /* Tamanho do texto do email */
+    font-style: italic; /* Estilo itálico */
+}
+
+/* Estilizando o texto do parágrafo */
+h3.bio {
+    line-height: 1.5; /* Espaçamento entre linhas do texto */
+}
